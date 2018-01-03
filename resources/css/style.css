@@ -37,9 +37,16 @@ nav ul {
 
 nav ul li {
   padding-left: 1rem;
+  font-size: 0.75rem;
 }
 
-/* banner */
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* first try
+
 
 .banner {
   display: flex;
@@ -79,4 +86,135 @@ nav ul li {
   margin-top: 1.5rem;
   text-align: center;
   font-size: 1rem;
+}
+
+
+
+.information {
+  display: flex;
+}
+
+.information-main {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.information-main img {
+  width: 100%;
+}
+
+.information-secondary {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.section {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.section-image {
+  width: 35%;
+  margin: 1rem;
+}
+
+.section-image img {
+  width: 100%;
+  height: auto;
+}
+
+.section-info {
+  width: 65%;
+}
+
+*/
+
+
+/* second try */
+/* banner */
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.banner {
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.banner-image {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.banner-image img{
+  width: 100%;
+}
+
+.banner-text {
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+.banner h3 {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.banner .button {
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+  text-align: center;
+  width: 85%;
+  margin-top: 1.5rem;
+}
+
+/* information section */
+.information-main {
+  width: 60%;
+  margin: 2rem 0 2rem 1.5rem;
+  padding-right: 1.5rem;
+  border-right: 1px solid lightgrey;
+}
+
+.information-main-image img {
+  width: 100%;
+}
+
+.information-secondary {
+  width: 40%;
+  margin-top: 1rem;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.information-image {
+  width: 35%;
+  margin: 1rem;
+  height: auto;
+}
+
+.information-image img {
+  width: 100%;
+}
+
+.information-text {
+  width: 65%;
 }
