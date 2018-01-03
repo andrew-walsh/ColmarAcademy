@@ -40,3 +40,43 @@ nav ul li {
 }
 
 /* banner */
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.banner-img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.banner-info {
+  width: 35%;
+}
+
+.banner-info h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.banner-info h3 {
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+.banner-info .button {
+  width: 85%;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
