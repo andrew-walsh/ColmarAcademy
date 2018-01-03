@@ -1,0 +1,42 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.logo img {
+  height: 2rem;
+}
+
+.colmar {
+  font-weight: bold;
+}
+
+.academy {
+  color: grey;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+nav ul li {
+  padding-left: 1rem;
+}
+
+/* banner */
