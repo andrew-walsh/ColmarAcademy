@@ -147,7 +147,7 @@ nav ul li a {
 
 .banner-image {
   width: 60%;
-  margin: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 .banner-image img{
@@ -156,7 +156,7 @@ nav ul li a {
 
 .banner-text {
   width: 40%;
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .banner h1 {
@@ -166,7 +166,7 @@ nav ul li a {
 }
 
 .banner h3 {
-  margin-top: 1.5rem;
+  padding-top: 1.5rem;
   font-weight: bold;
   line-height: 1.5rem;
 }
@@ -183,8 +183,7 @@ nav ul li a {
 /* information section */
 .information-main {
   width: 60%;
-  margin: 2rem 0 2rem 1.5rem;
-  padding-right: 1.5rem;
+  padding: 2rem 1.5rem;
   border-right: 1px solid lightgrey;
 }
 
@@ -192,9 +191,26 @@ nav ul li a {
   width: 100%;
 }
 
+.information-main h2 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.information-main p {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.information-main span {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+}
+
 .information-secondary {
   width: 40%;
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .information {
@@ -203,6 +219,11 @@ nav ul li a {
   align-items: center;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+}
+
+.information:hover {
+  background-color: lightgrey;
+  transition-duration: 300ms;
 }
 
 .information-image {
@@ -218,3 +239,150 @@ nav ul li a {
 .information-text {
   width: 65%;
 }
+
+.information h4 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.information p {
+  padding-bottom: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.25;
+}
+
+.information a {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+/* courses */
+
+.course-content {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  padding: 2rem 2.5rem;
+  justify-content: center;
+}
+
+.course-content h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.courses {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  background-color: white;
+  margin: 1rem;
+}
+
+.course:hover {
+  box-shadow: 0.125rem 0.125rem 1rem darkgrey;
+  transition-duration: 250ms;
+}
+
+.course-image img {
+  width: 100%;
+  height: auto;
+}
+
+.course-info {
+  padding: 1rem 0 1.5rem 1rem;
+}
+
+.course-info h4 {
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.course-info p {
+  line-height: 1.25rem;
+  padding-top: 0.5rem;
+}
+
+
+/* thesis */
+
+.thesis-content h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem 0 2rem 0;
+}
+
+.thesis-main {
+  width: 60%;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.thesis-main-video video {
+  width: 100%;
+}
+
+.thesis-main h4 {
+  padding: 1.5rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.thesis-main.content p {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.thesis-secondary {
+  width: 40%;
+}
+
+.thesis {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.thesis:hover {
+  background-color: lightgrey;
+  transition-duration: 300ms;
+}
+
+.thesis-image {
+  width: 35%;
+  margin: 1rem;
+  height: auto;
+}
+
+.thesis-image img {
+  width: 100%;
+}
+
+.thesis-text {
+  width: 65%;
+}
+
+.thesis h4 {
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.thesis p {
+  padding-bottom: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.25;
+
+
+/* footer */
