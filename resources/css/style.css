@@ -212,6 +212,31 @@ nav ul li a {
   margin-top: 1.5rem;
 }
 
+@media only screen and (max-width: 506px) {
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-image {
+    width: 100%;
+    padding: 0;
+  }
+
+  .banner-text {
+    width: 100%;
+    padding-left: 1rem;
+  }
+
+  .banner-text h3 {
+    padding-right: 1rem;
+  }
+
+  .banner .button {
+    margin-bottom: 2rem;
+  }
+}
+
 /* information section */
 .information-main {
   width: 60%;
@@ -289,6 +314,46 @@ nav ul li a {
   text-decoration: none;
 }
 
+.information-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 506px) {
+    .information-main {
+      display: none;
+    }
+
+    .information-secondary {
+      display: none;
+    }
+
+    .information-mobile {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .information {
+      flex-direction: column;
+      border: none;
+    }
+
+    .information:hover {
+      background-color: white;
+    }
+
+    .information-image {
+      width: 100%;
+
+    }
+
+    .information-text {
+      width: 100%;
+    }
+
+}
+
 /* courses */
 
 .course-content {
@@ -345,6 +410,38 @@ nav ul li a {
   padding-top: 0.5rem;
 }
 
+.mobile-course {
+  display: none;
+}
+
+@media only screen and (max-width: 506px) {
+
+  .course-content {
+    background-color: white;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .course {
+    display: none;
+  }
+
+  .mobile-course {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .mobile-course span {
+    background-color: lightgrey;
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+}
 
 /* thesis */
 
@@ -421,6 +518,30 @@ nav ul li a {
   line-height: 1.25;
 }
 
+@media only screen and (max-width: 506px) {
+  .thesis-secondary {
+    display: none;
+  }
+
+  .thesis-content {
+    width: 100%;
+  }
+
+  .thesis-main {
+    width: 100%;
+    padding: 0;
+  }
+
+  .thesis-main video {
+    width: 100%;
+  }
+
+  .thesis-main h4,
+  .thesis-main p {
+    display: none;
+  }
+}
+
 /* footer */
 
 footer {
@@ -447,4 +568,10 @@ footer ul li a {
   text-decoration: none;
   color: black;
   padding-left: 1rem;
+}
+
+@media only screen and (max-width: 506px) {
+  footer {
+    border: none;
+  }
 }
