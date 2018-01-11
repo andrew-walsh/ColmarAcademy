@@ -414,6 +414,16 @@ nav ul li a {
   display: none;
 }
 
+@media only screen and (max-width: 680px) {
+  .courses {
+    flex-direction: column;
+  }
+
+  .course {
+    width: 90%;
+  }
+}
+
 @media only screen and (max-width: 506px) {
 
   .course-content {
@@ -439,6 +449,11 @@ nav ul li a {
     margin-top: 0.5rem;
     font-size: 1.25rem;
     font-weight: bold;
+  }
+
+  .mobile-course span:hover {
+    box-shadow: 0.125rem 0.125rem 0.5rem darkgrey;
+    transition-duration: 250ms;
   }
 
 }
@@ -573,5 +588,9 @@ footer ul li a {
 @media only screen and (max-width: 506px) {
   footer {
     border: none;
+  }
+
+  footer ul {
+    display: none;
   }
 }
